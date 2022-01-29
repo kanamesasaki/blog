@@ -83,3 +83,50 @@ gatsby build --prefix-paths
 ```shell
 gh-pages -d public
 ```
+
+## Markdownで数式を使えるようにする
+
+このままだとMarkdownファイルの中で数式が使えないので，gatsby-remark-katexとkatexをインストールする．
+
+```shell
+npm install gatsby-remark-katex katex
+```
+
+gatsby-starter-blogを使っていると，gatsby-config.jsの中にgatsby-transformer-remarkに関するスクリプトがあるはずなので，そこにgatsby-remark-katexを追加する．
+
+```js
+{
+  resolve: `gatsby-transformer-remark`,
+  options: {
+    plugins: [
+      {
+        resolve: `gatsby-remark-images`,
+        options: {
+          maxWidth: 630,
+        },
+      },
+      {
+        resolve: `gatsby-remark-responsive-iframe`,
+        options: {
+          wrapperStyle: `margin-bottom: 1.0725rem`,
+        },
+      },
+      `gatsby-remark-prismjs`,
+      `gatsby-remark-copy-linked-files`,
+      `gatsby-remark-smartypants`,
+      {
+        resolve: `gatsby-remark-katex`,
+        options: {
+          // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+          strict: `ignore`
+        }
+      }
+    ],
+  },
+},
+```
+\src\templates\blog-post.jsに以下のスクリプトを追加する．
+
+```js
+import "katex/dist/katex.min.css"
+```
