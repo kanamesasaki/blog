@@ -130,3 +130,38 @@ gatsby-starter-blogを使っていると，gatsby-config.jsの中にgatsby-trans
 ```js
 import "katex/dist/katex.min.css"
 ```
+
+## 図の挿入について
+
+gatsby-starter-blogではMarkdownの書式を用いて，以下のように図を挿入することが出来る．
+
+```markdown
+![figurename](.\figurename.jpg)
+```
+
+ただこの状態では，svgやgifの使用，幅・高さの設定等ができないので，gatsby-remark-static-imagesをインストールして，gatsby-config.jsにスクリプトを追加する．
+
+```shell
+npm install gatsby-remark-static-images
+```
+
+```js
+// gatsby-config.js
+plugins: [
+  {
+    resolve: 'gatsby-transformer-remark',
+    options: {
+      plugins: [
+        'gatsby-remark-static-images'
+      ]
+    }
+  }
+]
+```
+
+これでsvgやgifもMarkdownの書式で挿入できるが，さらに図の幅や位置を指定したい場合は，以下のようにHTMLの書式で挿入することが出来る．
+
+```markdown
+<div align="center"><img src=".\figurename.svg" width="300"></div>
+```
+
