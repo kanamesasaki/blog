@@ -10,6 +10,12 @@ tags: ["Programming", "GLSL", "JavaScript", "WebGL"]
 WebGLとOpenGL ES Shading Language(GLSL ES)を用いると，ウェブブラウザ上で比較的簡単にグラフィック処理を行うことが出来る．
 この環境でGPGPU(General-purpose computing on graphics processing units)をやる準備として，GPUのフラグメントシェーダからCPUへのデータの受け渡しについて考えよう．
 
+<details>
+<summary>Deutsch</summary>
+Mithilfe von WebGL und OpenGL ES Shading Language(GLSL ES) kann man die Grafikverarbeitung relativ einfach in einem Webbrowser durchführen.
+Um GPGPU (General-purpose computing on graphics processing units) in dieser Umgebung durchzuführen, versuchen wir, Daten vom GPU Fragment Shader auf die CPU zu übertragen.
+</details>
+
 ## フラグメントシェーダのデータを色に変換する
 
 もともとフラグメントシェーダの役割は，各ピクセルで表示するべき色を決めることである．
@@ -20,6 +26,14 @@ WebGLとOpenGL ES Shading Language(GLSL ES)を用いると，ウェブブラウ�
 色はRGBAの値で指定されるが，フラグメントシェーダではRGBAの値を0&ndash;1のfloatで指定するのに対して，JavaScript側では，RGBAの値を8ビットのunsigned intとして受け取るので注意しよう．
 
 32ビットのintを色に変換するには，次のように8ビットごとにバイナリを取り出して，0&ndash;1のfloatに変換してやればよい．
+
+<details>
+<summary></summary>
+Die Rolle des Fragment Shaders ist, für jedes Pixel eine Farbe zu bestimmen. Die gezeichnete Farbe kann von der CPU mit der WebGL Funktion readPixcels gelesen werden.
+Das heißt, wenn man die Daten als Farbe zeichnet, können die Daten von der GPU zur CPU übertragen werden.
+
+Zum Beischpiel, 32-Bit int, uint oder float Data kann auf folgende Weise in eine Farbe konvertiert werden:
+</details>
 
 ```glsl
 vec4 intToVec4(int num) {
@@ -61,6 +75,13 @@ vec4 floatToVec4(float val) {
 必要なサイズは，ピクセル数×8ビット×RGBAである．
 これを32ビットごとのまとまりとして認識し直せば，もともとのデータが得られる．
 
+<details>
+<summary></summary>
+Die gezeichneten Farben können auf folgende Weise als ein int-, uint-, oder float-Array ausgelesen werden.
+
+Zuerst sollte man den notwendigen Binary Buffer vorbereiten und die Farbdaten auslesen. Die notwendige Buffergröße ist: Pixels × 8-Bit × RGBA.
+Dann sollen diese Binärdaten als 32-Bit Datan neu erkannt werden.
+</details>
 
 ```javascript
 function readInt32Array() {

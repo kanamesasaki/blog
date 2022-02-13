@@ -10,6 +10,11 @@ tags: ["Programming", "Xorshift"]
 擬似乱数を発生させるアルゴリズムとして，線形合同法，Xorshift，メルセンヌ・ツイスタ，などいくつか有名なものがある．
 その中でも操作が単純で高速なXorshiftについて，ざっくり何をやっているのかを元論文[^1] [^2]を参照しながら考えてみたい．証明やパラメタの詳細は元論文を見てもらうことにして，ここでは大まかな考えかたを追っていこう．
 
+<details><summary></summary>
+Es gibt mehrere Algorithmen, Pseudozufallszahlen zu generieren, z.B. Lineare Kongruenzgenratoren, Xorshift, Mersenne Twister und so weiter. 
+In diesem Blogartikel disktirern wir über das Konzept des Xorshift Algorithms.
+</details>
+
 ## 行列による擬似乱数の生成
 
 擬似乱数を発生させる方法には様々なアプローチがあり得るが，大きな方向性として，
@@ -30,6 +35,11 @@ $T$の周期が$k = 2^n-1$ということは，あるバイナリ$\beta$に対�
 1 $\Rightarrow$ 2 に関して：
 
 行列$T$を作用させると，あるバイナリ$\beta$に対して，一意にバイナリ$\beta T$を与えるので，とりうるバイナリを全て発生させていくには，毎回異なるバイナリを発生させ続けなければならない．なので，$2^n-1$回の操作で元のバイナリに戻るという周期になるはずだ．
+
+<details><summary></summary>
+Jetzt denken wir über eine Methode nach, bei der wir eine binäre n×n Matrix auf eine n-th binäre Vektor anwenden und die Folge von binären Vektoren erstellen. 
+Um möglichst viele untershiedliche Zahlen zu erzeugen, sollten wir eine Matrix wählen, deren Periode 2&#8319;&minus;1 ist.
+</details>
 
 ## Xorshiftを使う理由
 
@@ -76,6 +86,18 @@ y ^ (y >> b)
 
 これまでの議論で分かるように，Xorshiftのアルゴリズムは，$2^n-1$個のバイナリが出現することは保証するものの，どのようなばらつき方で出てくるかについては言及していないので，その点については別途テストする必要がある．
 $n=32$の場合は$(a,b,c) = (13,17,15)$という組み合わせが良く用いられており，特に理由がなければこのパラメタを用いるのが良さそうだ．
+
+<details><summary></summary>
+Nun die Frage ist, wie man eine Matrix mit einer Periode von 2&#8319;&minus;1 finden.
+Eine notwendige Eigenschaft ist, dass die Matrix regelmäßig sein muss.
+Das reicht jedoch nicht aus, um die Form der Matrix zu bestimmen.
+Daher suchen wir zunächst nach Matrixoperation, die mit geringem Rechenaufwand durchgeführt werden kann. Und dann prüfen wir, ob diese Matrix die Periode-Anforderung erfüllt.
+Für solche Matrixoperation ist xor-Shift ein guter Kandidat.
+Bit-Shift Operation kann als eine Shift-Matrix beschrieben werden.
+Da eine Shift-Matrix nicht regulär ist, führen wir eine zusätzliche xor-Operation durch. Auf diese Weise kann ein regulär Matrixoperation mit geringem Rechenaufwand erstellt werden.
+Für n=32 ist es möglich, eine Matirx mit der Periode von 2&#8319;&minus;1 aus drei (oder mehr) xor-Shift Operationen zu erstellen, und normalerweise wird (a, b, c) = (13, 17, 15) verwendet.
+</details>
+
 
 [^1]: Marsaglia, G. (2003). Xorshift RNGs. Journal of Statistical Software, 8(14), 1–6. https://doi.org/10.18637/jss.v008.i14
 
