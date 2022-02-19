@@ -65,9 +65,9 @@ $$
 
 $$
 \begin{equation}
-\boldsymbol{R}_\mathrm{X} = \frac{1}{n_x^2+n_z^2} \left[ \begin{array}{c} n_z \\ 0 \\ -n_x \end{array} \right], ~~
+\boldsymbol{R}_\mathrm{X} = \frac{1}{\sqrt{n_x^2+n_z^2}} \left[ \begin{array}{c} n_z \\ 0 \\ -n_x \end{array} \right], ~~
 \boldsymbol{R}_\mathrm{Y} = \boldsymbol{R}_\mathrm{Z} \times \boldsymbol{R}_\mathrm{X} 
-= \frac{1}{n_x^2+n_z^2} \left[ \begin{array}{c} n_y n_x \\ n_z^2 - n_x^2 \\ -n_y n_z \end{array} \right]
+= \frac{1}{\sqrt{n_x^2+n_z^2}} \left[ \begin{array}{c} n_y n_x \\ n_z^2 - n_x^2 \\ -n_y n_z \end{array} \right]
 \end{equation}
 $$
 
@@ -93,7 +93,7 @@ $$
 = \left[ \begin{array}{c} 
 \sin \theta \cos \varphi \\ 
 \sin \theta \sin \varphi \\ 
-\cos \theta \cos \end{array} \right]
+\cos \theta \end{array} \right]
 \end{equation}
 $$
 
