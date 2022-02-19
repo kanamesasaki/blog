@@ -5,8 +5,8 @@
 <p>WebGLとOpenGL ES Shading Language(GLSL ES)を用いると，ウェブブラウザ上で比較的簡単にグラフィック処理を行うことが出来る．
 この環境でGPGPU(General-purpose computing on graphics processing units)をやる準備として，GPUのフラグメントシェーダからCPUへのデータの受け渡しについて考えよう．</p>
 <details>
-<summary>Deutsch</summary>
-Mithilfe von WebGL und OpenGL ES Shading Language(GLSL ES) kann man die Grafikverarbeitung relativ einfach in einem Webbrowser durchführen.
+<summary></summary>
+Mithilfe von WebGL und OpenGL ES Shading Language (GLSL ES) kann man die Grafikverarbeitung relativ einfach in einem Webbrowser durchführen.
 Um GPGPU (General-purpose computing on graphics processing units) in dieser Umgebung durchzuführen, versuchen wir, Daten vom GPU Fragment Shader auf die CPU zu übertragen.
 </details>
 <h2>フラグメントシェーダのデータを色に変換する</h2>
@@ -16,12 +16,6 @@ Um GPGPU (General-purpose computing on graphics processing units) in dieser Umge
 なので，渡したいデータを色として表示して，それを読みだしてやれば，フラグメントシェーダからCPUへデータを受け渡すことが出来る．</p>
 <p>色はRGBAの値で指定されるが，フラグメントシェーダではRGBAの値を0–1のfloatで指定するのに対して，JavaScript側では，RGBAの値を8ビットのunsigned intとして受け取るので注意しよう．</p>
 <p>32ビットのintを色に変換するには，次のように8ビットごとにバイナリを取り出して，0–1のfloatに変換してやればよい．</p>
-<details>
-<summary></summary>
-Die Rolle des Fragment Shaders ist, für jedes Pixel eine Farbe zu bestimmen. Die gezeichnete Farbe kann von der CPU mit der WebGL Funktion readPixcels gelesen werden.
-Das heißt, wenn man die Daten als Farbe zeichnet, können die Daten von der GPU zur CPU übertragen werden.
-<p>Zum Beischpiel, 32-Bit int, uint oder float Data kann auf folgende Weise in eine Farbe konvertiert werden:</p>
-</details>
 <div class="gatsby-highlight" data-language="glsl"><pre class="language-glsl"><code class="language-glsl"><span class="token keyword">vec4</span> <span class="token function">intToVec4</span><span class="token punctuation">(</span><span class="token keyword">int</span> num<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">int</span> rIntValue <span class="token operator">=</span> num <span class="token operator">&amp;</span> <span class="token number">0x000000FF</span><span class="token punctuation">;</span>
     <span class="token keyword">int</span> gIntValue <span class="token operator">=</span> <span class="token punctuation">(</span>num <span class="token operator">&amp;</span> <span class="token number">0x0000FF00</span><span class="token punctuation">)</span> <span class="token operator">>></span> <span class="token number">8</span><span class="token punctuation">;</span>
@@ -44,17 +38,16 @@ Das heißt, wenn man die Daten als Farbe zeichnet, können die Daten von der GPU
     <span class="token keyword">uint</span> conv <span class="token operator">=</span> <span class="token function">floatBitsToUint</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token keyword">return</span> <span class="token function">uintToVec4</span><span class="token punctuation">(</span>conv<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre></div>
+<details>
+<summary></summary>
+Die Rolle des Fragment Shaders ist, für jedes Pixel eine Farbe zu bestimmen. Die gezeichnete Farbe kann von der CPU mit der WebGL Funktion readPixcels gelesen werden.
+Das heißt, wenn man die Daten als Farbe zeichnet, können die Daten von der GPU zur CPU übertragen werden.
+</details>
 <h2>色をデータとして読みだす</h2>
 <p>画面全体の色を，int，unsigned int，floatの配列としてJavaScript側で読み出す関数は次のような感じになる．</p>
 <p>まず，読み出しに必要な分だけバイナリ配列の領域を用意して，そこに色データを読み出す．
 必要なサイズは，ピクセル数×8ビット×RGBAである．
 これを32ビットごとのまとまりとして認識し直せば，もともとのデータが得られる．</p>
-<details>
-<summary></summary>
-Die gezeichneten Farben können auf folgende Weise als ein int-, uint-, oder float-Array ausgelesen werden.
-<p>Zuerst sollte man den notwendigen Binary Buffer vorbereiten und die Farbdaten auslesen. Die notwendige Buffergröße ist: Pixels × 8-Bit × RGBA.
-Dann sollen diese Binärdaten als 32-Bit Datan neu erkannt werden.</p>
-</details>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">readInt32Array</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">let</span> pixels <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Uint8Array</span><span class="token punctuation">(</span>gl<span class="token punctuation">.</span>drawingBufferWidth <span class="token operator">*</span> gl<span class="token punctuation">.</span>drawingBufferHeight <span class="token operator">*</span> <span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   gl<span class="token punctuation">.</span><span class="token function">readPixels</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> gl<span class="token punctuation">.</span>drawingBufferWidth<span class="token punctuation">,</span> gl<span class="token punctuation">.</span>drawingBufferHeight<span class="token punctuation">,</span> gl<span class="token punctuation">.</span><span class="token constant">RGBA</span><span class="token punctuation">,</span> gl<span class="token punctuation">.</span><span class="token constant">UNSIGNED_BYTE</span><span class="token punctuation">,</span> pixels<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -71,7 +64,13 @@ Dann sollen diese Binärdaten als 32-Bit Datan neu erkannt werden.</p>
   <span class="token keyword">let</span> pixels <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Uint8Array</span><span class="token punctuation">(</span>gl<span class="token punctuation">.</span>drawingBufferWidth <span class="token operator">*</span> gl<span class="token punctuation">.</span>drawingBufferHeight <span class="token operator">*</span> <span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   gl<span class="token punctuation">.</span><span class="token function">readPixels</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> gl<span class="token punctuation">.</span>drawingBufferWidth<span class="token punctuation">,</span> gl<span class="token punctuation">.</span>drawingBufferHeight<span class="token punctuation">,</span> gl<span class="token punctuation">.</span><span class="token constant">RGBA</span><span class="token punctuation">,</span> gl<span class="token punctuation">.</span><span class="token constant">UNSIGNED_BYTE</span><span class="token punctuation">,</span> pixels<span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Float32Array</span><span class="token punctuation">(</span>pixels<span class="token punctuation">.</span>buffer<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre></div></section><hr/><footer><div class="bio"><p>Written by <strong>Kaname Sasaki</strong> <!-- --> </p></div></footer></article><nav class="blog-post-nav"><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/blog/20220124-gatsby-blog/">← <!-- -->GatsbyとGitHub Pagesで作るMarkdownブログ</a></li><li><a rel="next" href="/blog/20220127-import-shader/">GLSLコードをJavaScriptからimportする<!-- --> →</a></li></ul></nav></main><footer>© <!-- -->2022<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.com">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+<span class="token punctuation">}</span></code></pre></div>
+<details>
+<summary></summary>
+Die gezeichneten Farben können als ein int-, uint-, oder float-Array ausgelesen werden.
+<p>Zuerst sollte man den notwendigen Binary Buffer vorbereiten und die Farbdaten auslesen. Die notwendige Buffergröße ist: Pixels × 8-Bit × RGBA.
+Dann sollen diese Binärdaten als 32-Bit Datan neu erkannt werden.</p>
+</details></section><hr/><footer><div class="bio"><p>Written by <strong>Kaname Sasaki</strong> <!-- --> </p></div></footer></article><nav class="blog-post-nav"><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/blog/20220124-gatsby-blog/">← <!-- -->GatsbyとGitHub Pagesで作るMarkdownブログ</a></li><li><a rel="next" href="/blog/20220127-import-shader/">GLSLコードをJavaScriptからimportする<!-- --> →</a></li></ul></nav></main><footer>© <!-- -->2022<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.com">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
   
   
   if(true) {
