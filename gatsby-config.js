@@ -3,10 +3,10 @@ module.exports = {
   siteMetadata: {
     title: `Blog`,
     author: {
-      name: `Kaname Sasaki`,
+      name: ``,
       summary: ``,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `blog`,
     siteUrl: `https://kanamesasaki.github.io/blog/`,
     social: {
       twitter: ``,
