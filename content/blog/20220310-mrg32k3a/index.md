@@ -1,25 +1,32 @@
 ---
 title: MRG32k3aを使ってGPU上で乱数を発生させる
-date: "2022-03-17T00:00:00.000Z"
+date: "2022-03-10T00:00:00.000Z"
 description: "Generate random numbers by MRG32k3a on GPU WebGL2 environment"
 tags: ["GPU", "Random number"]
 ---
 
 ## やりたいこと
 
-モンテカルロシミュレーションは，1回1回の実行結果を相互にやり取りする必要が基本的にはないはずなので，計算を並列化すると効率よくシミュレーションを回せそうだ．
-WebGLを用いてモンテカルロシミュレーションをする場合，ひとつハードルになるのが乱数発生だ．
-OpenGL ES 3.0には乱数発生させるビルトイン関数は存在しないので，自作で用意してやる必要がある．
-今回はMRG32k3aを並列で実行するアルゴリズムについて考えてみよう．
-
-## 乱数発生を並列化するコンセプト
+モンテカルロシミュレーションは，1回1回の実行結果を相互にやり取りする必要がないはずなので，計算を並列化すると効率よくシミュレーションを回せそうだ．
+WebGL2を用いてウェブアプリケーションとしてモンテカルロシミュレーションをする場合，ひとつハードルになるのが乱数発生だ．OpenGL ES 3.0には乱数発生させるビルトイン関数は存在しないので，自作で用意してやる必要がある．
 
 基本的に乱数発生アルゴリズムは，初期シードを元に順々に値を発生させていくので，並列化するには何らかの工夫が必要になる．もっとも単純な手法は，各計算スレッドがまず数列上の異なる点まで大きくスキップして，そこからひとつひとつ値を生成していくという方法だ．これを実現するには，順々に値を発生させるアルゴリズムに加えて，効率的にスキップするアルゴリズムが必要になる．
 
 <div align=center><img src=".\skip.svg" width="500"></div>
 
-## MRG32k3a
+今回は並列計算でもよく用いられる乱数発生アルゴリズム[^1]のうちMRG32k3aについて，L'Ecuyerの論文[^2] [^3]を参考にアルゴリズムの概要と具体的な実装方法について考えていきたい．
 
+## MRG32k3aとは
+
+乱数発生アルゴリズムのうちMultiple Recursive Generator (MRG)と呼ばれるものは，下式のように過去の状態の線形和を計算して状態を更新していく．
+
+$$
+\begin{equation}
+x_n = (a_1 x_{n-1} + \cdots + a_k x_{n-k})~\mathrm{mod}~m
+\end{equation}
+$$
+
+このようなMRGを複数組み合わせて，かつパラメタをうまく設定してやることで，より長い周期，良いランダム特性を実現しようとしたものにMRG32k3aがある．
 MRG32k3aは以下の式に従って，乱数を発生させていく．
 
 $$
@@ -27,7 +34,6 @@ $$
 x_{1,n} = (1403580 \times x_{1,n-2} - 810728 \times x_{1,n-3})~\mathrm{mod}~m_1 \\
 x_{2,n} = (527612 \times x_{2,n-1} - 1370589 \times x_{2,n-3})~\mathrm{mod}~m_2 \\
 z_n = (x_{1,n} - x_{2,n})~\mathrm{mod}~m_1 \\
-u_n = z_n / 4294967088 \\
 \mathrm{where} ~~
 m_1 = 2^{32} - 209 = 4294967087, ~~ 
 m_2 = 2^{32} - 22853 = 4294944443
@@ -225,6 +231,13 @@ uint skipMRG32k3a(uint n) {
     return diffModM(x1[0], x2[0], m1);
 }
 ```
+
+
+[^1]: T. Bradley, J. du Toit, R. Tong, M. Giles, P. Woodhams, Parallelization techniques for random numbers generators, in: GPU Computing Gems, Gems Emerald ed., 2011, pp. 231–246. https://doi.org/10.1016/B978-0-12-384988-5.00016-4
+
+[^2]: Pierre L'Ecuyer, (1999) Good Parameters and Implementations for Combined Multiple Recursive Random Number Generators. Operations Research 47(1):159-164. https://doi.org/10.1287/opre.47.1.159
+
+[^3]: Pierre L'Ecuyer, Richard Simard, E. Jack Chen, W. David Kelton, (2002) An Object-Oriented Random-Number Package with Many Long Streams and Substreams. Operations Research 50(6):1073-1075. https://doi.org/10.1287/opre.50.6.1073.358
 
 
 
