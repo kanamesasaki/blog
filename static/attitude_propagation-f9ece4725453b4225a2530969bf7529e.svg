@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   xml:space="preserve"
+   width="190mm"
+   height="166mm"
+   viewBox="0 0 718.11025 627.40155"
+   sodipodi:docname="attitude_propagation.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18"><path
+         d="m 0.75,1.298 h 1014.72 v 893.45 H 0.75 Z"
+         id="path16"
+         inkscape:connector-curvature="0"
+         style="clip-rule:evenodd" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath28"><path
+         d="M 0,0 H 1014.37 V 894.85 H 0 Z"
+         id="path26"
+         inkscape:connector-curvature="0" /></clipPath></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2880"
+     inkscape:window-height="1526"
+     id="namedview4"
+     showgrid="false"
+     inkscape:document-units="mm"
+     units="mm"
+     inkscape:zoom="1.5812395"
+     inkscape:cx="465.98665"
+     inkscape:cy="349.65221"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g20" /><g
+     id="g10"
+     inkscape:groupmode="layer"
+     inkscape:label="attitude_propagation"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,627.40151)"><g
+       id="g12"
+       transform="matrix(0.54379085,0,0,0.54372717,-7.1929801,-6.4819398)"><g
+         id="g14"
+         clip-path="url(#clipPath18)"><g
+           id="g20"
+           transform="matrix(14.093,0,0,12.409,0.75,1.2982)"><g
+             id="g22"
+             transform="scale(0.07098,0.08046)"><g
+               id="g24"
+               clip-path="url(#clipPath28)"
+               transform="matrix(0.97368417,0,0,0.97366861,13.170407,2.7946959)"><path
+                 d="m 150.6,418.93 c 0,8.35 6.77,15.12 15.12,15.12 H 402 c 8.35,0 15.12,-6.77 15.12,-15.12 v -60.48 c 0,-8.35 -6.77,-15.12 -15.12,-15.12 H 165.72 c -8.35,0 -15.12,6.77 -15.12,15.12 z"
+                 style="fill:none;stroke:#000000;stroke-width:0.95999998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 id="path30"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,162.24,403.55)"
+                 style="font-variant:normal;font-weight:normal;font-size:20.04000092px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text34"><tspan
+                   x="0 9.5991602 20.120159 30.701281 40.059959 46.773361 51.382561 61.943642 72.464638 76.773239 87.33432 93.446518 97.895401 115.0296 125.59068 132.30408 136.91328 147.47437"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan32">Equation of Motion</tspan></text>
+<path
+                 d="m 162.23,401.33 h 52.68 52.68 52.68 v -1.32 h -52.68 -52.68 -52.68 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                 id="path36"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,162.24,381.47)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text40"><tspan
+                   x="0 11.556 21.006001 30.455999 39.006001 45.035999 49.085999 58.535999 67.068001"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan38">Updating </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,233.42,381.47)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text44"><tspan
+                   x="0 10.422 19.872 28.422001 37.872002 42.012001 50.633999 56.916 61.037998 70.398003 79.362 83.501999 92.987999 100.512 104.598 110.628 118.782 122.94 132.3 141.26401 148.87801 154.746 164.23199 170.51401"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan42">Angular Velocity Vector </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,162.24,359.87)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text48"><tspan
+                   x="0 4.086 13.536 17.747999 23.778 33.228001 42.192001 46.259998 53.82 63.306 70.793999 79.416 83.556 87.821999 97.416 106.902 116.388 122.382 131.832 135.972 145.422 153.936 159.696"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan46">in the Local Coordinate</tspan></text>
+<path
+                 d="m 434.16,418.93 c 0,8.35 6.77,15.12 15.12,15.12 h 236.16 c 8.35,0 15.12,-6.77 15.12,-15.12 v -60.48 c 0,-8.35 -6.77,-15.12 -15.12,-15.12 H 449.28 c -8.35,0 -15.12,6.77 -15.12,15.12 z"
+                 style="fill:none;stroke:#000000;stroke-width:0.95999998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 id="path50"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,445.78,403.55)"
+                 style="font-variant:normal;font-weight:normal;font-size:20.04000092px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text54"><tspan
+                   x="0 11.16228 17.635201 24.3486 28.9578 35.6712 46.1922 56.7132 66.693123 71.162041 83.486641 88.09584 93.96756 99.598801 109.57872 116.27208 126.252 136.55257 143.26596 147.87515 157.47432 161.98332 166.77287 176.37204 186.89304 197.47417 206.83284 213.54623 218.15544 228.71652"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan52">Attitude Differential Equation</tspan></text>
+<path
+                 d="m 445.73,401.33 h 59.82 59.82 59.82 59.82 v -1.32 h -59.82 -59.82 -59.82 -59.82 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                 id="path56"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,445.78,381.47)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text60"><tspan
+                   x="0 11.556 21.006001 30.455999 39.006001 45.035999 49.085999 58.535999 67.068001"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan58">Updating </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,516.94,381.47)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text64"><tspan
+                   x="0 10.422 19.872 28.422001 37.872002 42.012001 50.633999 56.916 61.037998 70.398003 79.362 83.501999 92.987999 100.512 104.598 110.628 118.782 122.94 132.3 141.26401 148.87801 154.746 164.23199 170.51401"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan62">Angular Velocity Vector </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,445.78,359.87)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text68"><tspan
+                   x="0 4.086 13.536 17.747999 23.778 33.228001 42.192001 46.259998 53.82 63.306 70.793999 79.416 83.556 87.821999 97.416 106.902 116.388 122.382 131.832 135.972 145.422 153.936 159.696"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan66">in the Local Coordinate</tspan></text>
+<path
+                 d="m 150.6,223.21 c 0,8.35 6.77,15.12 15.12,15.12 h 236.16 c 8.35,0 15.12,-6.77 15.12,-15.12 v -60.48 c 0,-8.35 -6.77,-15.12 -15.12,-15.12 H 165.72 c -8.35,0 -15.12,6.77 -15.12,15.12 z"
+                 style="fill:none;stroke:#000000;stroke-width:0.95999998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 id="path70"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,162.22,207.76)"
+                 style="font-variant:normal;font-weight:normal;font-size:20.04000092px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text74"><tspan
+                   x="0 9.5991602 20.120159 30.701281 40.059959 46.773361 51.382561 61.943642 72.464638 76.773239 87.33432 93.446518 97.895401 115.0296 125.59068 132.30408 136.91328 147.47437"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan72">Equation of Motion</tspan></text>
+<path
+                 d="m 162.19,205.56 h 52.68 52.68 52.68 v -1.32 h -52.68 -52.68 -52.68 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                 id="path76"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,162.22,185.68)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text80"><tspan
+                   x="0 11.556 21.006001 30.455999 39.006001 45.035999 49.085999 58.535999 67.068001"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan78">Updating </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,233.38,185.68)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text84"><tspan
+                   x="0 10.422 19.872 28.422001 37.872002 42.012001 50.633999 56.916 61.037998 70.398003 79.362 83.501999 92.987999 100.512 104.598 110.628 118.782 122.94 132.3 141.26401 148.87801 154.746 164.23199 170.51401"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan82">Angular Velocity Vector </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,162.22,164.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text88"><tspan
+                   x="0 4.086 13.536 17.747999 23.778 33.228001 42.192001 46.259998 53.82 63.306 70.793999 79.416 83.556 87.821999 97.416 106.902 116.388 122.382 131.832 135.972 145.422 153.936 159.696"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan86">in the Local Coordinate</tspan></text>
+<path
+                 d="m 434.04,223.09 c 0,8.35 6.77,15.12 15.12,15.12 h 236.28 c 8.35,0 15.12,-6.77 15.12,-15.12 v -60.48 c 0,-8.35 -6.77,-15.12 -15.12,-15.12 H 449.16 c -8.35,0 -15.12,6.77 -15.12,15.12 z"
+                 style="fill:none;stroke:#000000;stroke-width:0.95999998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 id="path90"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,445.73,207.66)"
+                 style="font-variant:normal;font-weight:normal;font-size:20.04000092px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text94"><tspan
+                   x="0 11.16228 17.635201 24.3486 28.9578 35.6712 46.1922 56.7132 66.693123 71.162041 83.486641 88.09584 93.96756 99.598801 109.57872 116.27208 126.252 136.55257 143.26596 147.87515 157.47432 161.98332 166.77287 176.37204 186.89304 197.47417 206.83284 213.54623 218.15544 228.71652"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan92">Attitude Differential Equation</tspan></text>
+<path
+                 d="m 445.69,205.46 h 59.82 59.82 59.82 59.82 v -1.32 h -59.82 -59.82 -59.82 -59.82 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                 id="path96"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,445.73,185.58)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text100"><tspan
+                   x="0 11.556 21.006001 30.455999 39.006001 45.035999 49.085999 58.535999 67.068001"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan98">Updating </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,516.91,185.58)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text104"><tspan
+                   x="0 10.422 19.872 28.422001 37.872002 42.012001 50.633999 56.916 61.037998 70.398003 79.362 83.501999 92.987999 100.512 104.598 110.628 118.782 122.94 132.3 141.26401 148.87801 154.746 164.23199 170.51401"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan102">Angular Velocity Vector </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,445.73,163.98)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text108"><tspan
+                   x="0 4.086 13.536 17.747999 23.778 33.228001 42.192001 46.259998 53.82 63.306 70.793999 79.416 83.556 87.821999 97.416 106.902 116.388 122.382 131.832 135.972 145.422 153.936 159.696"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan106">in the Local Coordinate</tspan></text>
+<path
+                 d="M 283.36,343.69 283.32,239.6 h 0.96 l 0.04,104.09 z m -3.47,-98.33 3.91,-6.71 3.92,6.71 c 0.13,0.23 0.05,0.52 -0.18,0.65 -0.22,0.14 -0.52,0.06 -0.65,-0.17 l -3.5,-6 h 0.83 l -3.5,6 c -0.14,0.23 -0.43,0.31 -0.66,0.18 -0.23,-0.14 -0.31,-0.43 -0.17,-0.66 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path110"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,291.07,317.22)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text114"><tspan
+                   x="0 10.422 19.872 28.422001 37.872002 42.012001 50.633999 56.916 60.984001 70.307999 79.272003 83.412003 92.898003 100.422 104.508 110.538"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan112">Angular Velocity</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,291.07,295.62)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text118"><tspan
+                   x="0 8.7659998 12.834 27.216 36.18 40.301998 49.265999 53.478001 59.507999 63.576 72.540001 76.734001 86.886002 92.916"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan116">Time = t + ∆t </tspan></text>
+<path
+                 d="m 283.8,281.05 255.12,-0.09"
+                 style="fill:none;stroke:#000000;stroke-width:0.95999998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 id="path120"
+                 inkscape:connector-curvature="0" /><path
+                 d="m 539.52,281.53 v -41.57 h -0.96 v 41.57 z m 3.43,-35.81 -3.91,-6.71 -3.91,6.71 c -0.14,0.23 -0.06,0.52 0.17,0.66 0.23,0.13 0.52,0.05 0.65,-0.17 l 3.5,-6 h -0.82 l 3.5,6 c 0.13,0.22 0.42,0.3 0.65,0.17 0.23,-0.14 0.31,-0.43 0.17,-0.66 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path122"
+                 inkscape:connector-curvature="0" /><path
+                 d="m 598.12,343.33 -0.04,-104.09 h 0.96 l 0.04,104.09 z m -3.47,-98.33 3.91,-6.71 3.92,6.71 c 0.13,0.23 0.05,0.52 -0.18,0.65 -0.22,0.14 -0.52,0.06 -0.65,-0.17 l -3.5,-6 h 0.83 l -3.5,6 c -0.14,0.23 -0.43,0.31 -0.66,0.18 -0.23,-0.14 -0.31,-0.43 -0.17,-0.66 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path124"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,608.54,317.22)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text128"><tspan
+                   x="0 11.07 20.664"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan126">DCM</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,648.77,317.22)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text132"><tspan
+                   x="0 9.4860001 15.768 19.908001 32.021999 41.472 50.021999 55.782001 64.746002 71.028 80.477997 84.617996 94.103996"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan130">or Quaternion</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,608.54,295.62)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text136"><tspan
+                   x="0 8.7659998 12.834 27.216 36.18 40.301998 49.265999"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan134">Time = </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,662.09,295.62)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text140"><tspan
+                   x="0 6.0300002 10.098 19.062 23.256001"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan138">t + ∆</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,695.57,295.62)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text144"><tspan
+                   x="0 6"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan142">t </tspan></text>
+<path
+                 d="M 283.96,147.85 283.92,43.76 h 0.96 l 0.04,104.09 z m -3.47,-98.33 3.91,-6.712 3.92,6.709 c 0.13,0.229 0.05,0.523 -0.18,0.657 -0.22,0.133 -0.52,0.056 -0.65,-0.173 l -3.5,-5.998 0.83,-10e-4 -3.5,6.002 c -0.14,0.229 -0.43,0.306 -0.66,0.173 -0.23,-0.134 -0.31,-0.428 -0.17,-0.657 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path146"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,291.72,121.74)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text150"><tspan
+                   x="0 10.422 19.872 28.422001 37.872002 42.012001 50.633999 56.916 60.984001 70.307999 79.272003 83.412003 92.898003 100.422 104.508 110.538"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan148">Angular Velocity</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,291.72,100.14)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text154"><tspan
+                   x="0 8.7659998 12.834 27.216 36.18 40.301998 49.265999 53.478001 59.507999 63.576 72.540001"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan152">Time = t + </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,368.52,100.14)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text158"><tspan
+                   x="0 9.1199999"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan156">2∆</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,387.84,100.14)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text162"><tspan
+                   x="0 6"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan160">t </tspan></text>
+<path
+                 d="M 284.52,85.573 539.64,85.475"
+                 style="fill:none;stroke:#000000;stroke-width:0.95999998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 id="path164"
+                 inkscape:connector-curvature="0" /><path
+                 d="M 540.24,86.053 V 44.484 h -0.96 v 41.569 z m 3.43,-35.811 -3.91,-6.711 -3.91,6.711 c -0.14,0.229 -0.06,0.523 0.17,0.656 0.23,0.134 0.52,0.057 0.65,-0.172 l 3.5,-6 h -0.82 l 3.5,6 c 0.13,0.229 0.42,0.306 0.65,0.172 0.23,-0.133 0.31,-0.427 0.17,-0.656 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path166"
+                 inkscape:connector-curvature="0" /><path
+                 d="M 598.72,147.85 598.68,43.76 h 0.96 l 0.04,104.09 z m -3.47,-98.33 3.91,-6.712 3.92,6.709 c 0.13,0.229 0.05,0.523 -0.18,0.657 -0.22,0.133 -0.52,0.056 -0.65,-0.173 l -3.5,-5.998 0.82,-10e-4 -3.49,6.002 c -0.14,0.229 -0.43,0.306 -0.66,0.173 -0.23,-0.134 -0.31,-0.428 -0.17,-0.657 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path168"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,609.19,121.74)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text172"><tspan
+                   x="0 11.07 20.664"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan170">DCM</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,649.39,121.74)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text176"><tspan
+                   x="0 9.4860001 15.768 19.908001 32.021999 41.472 50.021999 55.782001 64.746002 71.028 80.477997 84.617996 94.103996"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan174">or Quaternion</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,609.19,100.14)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text180"><tspan
+                   x="0 8.7659998 12.834 27.216 36.18 40.301998 49.265999"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan178">Time = </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,662.71,100.14)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text184"><tspan
+                   x="0 6.0300002 10.098 19.062"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan182">t + </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,685.99,100.14)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text188"><tspan
+                   x="0 9.1260004 19.278 25.308001"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan186">2∆t </tspan></text>
+<path
+                 d="m 283.48,539.65 -0.04,-104.09 h 0.96 l 0.04,104.09 z m -3.47,-98.33 3.91,-6.71 3.92,6.71 c 0.13,0.23 0.05,0.52 -0.18,0.65 -0.22,0.14 -0.52,0.06 -0.65,-0.17 l -3.5,-6 h 0.82 l -3.49,6 c -0.14,0.23 -0.43,0.31 -0.66,0.18 -0.23,-0.14 -0.31,-0.43 -0.17,-0.66 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path190"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,291.14,513.59)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text194"><tspan
+                   x="0 10.422 19.872 28.422001 37.872002 42.012001 50.633999 56.916 60.984001 70.307999 79.272003 83.412003 92.898003 100.422 104.508 110.538"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan192">Angular Velocity</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,291.14,491.99)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text198"><tspan
+                   x="0 8.7659998 12.834 27.216 36.18 40.301998 49.265999"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan196">Time = </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,344.66,491.99)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text202"><tspan
+                   x="0 6"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan200">t </tspan></text>
+<path
+                 d="m 283.92,477.37 255.12,-0.09"
+                 style="fill:none;stroke:#000000;stroke-width:0.95999998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 id="path204"
+                 inkscape:connector-curvature="0" /><path
+                 d="m 539.64,477.85 v -41.57 h -0.96 v 41.57 z m 3.43,-35.81 -3.91,-6.71 -3.91,6.71 c -0.14,0.23 -0.06,0.52 0.17,0.66 0.23,0.13 0.52,0.05 0.65,-0.17 l 3.5,-6 h -0.82 l 3.5,6 c 0.13,0.22 0.42,0.3 0.65,0.17 0.23,-0.14 0.31,-0.43 0.17,-0.66 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path206"
+                 inkscape:connector-curvature="0" /><path
+                 d="m 598.12,539.65 -0.04,-104.09 h 0.96 l 0.04,104.09 z m -3.47,-98.33 3.91,-6.71 3.92,6.71 c 0.13,0.23 0.05,0.52 -0.18,0.65 -0.22,0.14 -0.52,0.06 -0.65,-0.17 l -3.5,-6 h 0.83 l -3.5,6 c -0.14,0.23 -0.43,0.31 -0.66,0.18 -0.23,-0.14 -0.31,-0.43 -0.17,-0.66 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path208"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,608.62,513.59)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text212"><tspan
+                   x="0 11.07 20.664"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan210">DCM</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,648.82,513.59)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text216"><tspan
+                   x="0 9.4860001 15.768 19.908001 32.021999 41.472 50.021999 55.782001 64.746002 71.028 80.477997 84.617996 94.103996"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan214">or Quaternion</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,608.62,491.99)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text220"><tspan
+                   x="0 8.7659998 12.834 27.216 36.18 40.301998 49.265999 53.478001"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan218">Time = t</tspan></text>
+<path
+                 d="m 37.2,389.17 h 112.44 v -0.96 H 37.2 Z m 106.68,3.44 6.71,-3.92 -6.71,-3.91 c -0.23,-0.14 -0.53,-0.06 -0.66,0.17 -0.13,0.23 -0.06,0.52 0.17,0.66 v 0 l 6,3.5 v -0.83 l -6,3.5 c -0.23,0.13 -0.3,0.43 -0.17,0.65 0.13,0.23 0.43,0.31 0.66,0.18 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path222"
+                 inkscape:connector-curvature="0" /><path
+                 d="m 36.72,193.45 h 112.44 v -0.96 H 36.72 Z m 106.68,3.44 6.71,-3.92 -6.71,-3.91 c -0.23,-0.14 -0.53,-0.06 -0.66,0.17 -0.13,0.23 -0.06,0.52 0.17,0.66 v 0 l 6,3.5 v -0.83 l -6,3.5 c -0.23,0.13 -0.3,0.43 -0.17,0.65 0.13,0.23 0.43,0.31 0.66,0.18 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path224"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,11.4,397.36)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text228"><tspan
+                   x="0 15.39 24.875999 39.257999 48.222 57.599998 63.630001 73.080002 87.461998 91.529999 96.066002 105.588 115.038 124.524"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan226">Momentum Input</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,11.4,202.26)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text232"><tspan
+                   x="0 15.39 24.875999 39.257999 48.222 57.599998 63.630001 73.080002 87.461998 91.529999 96.066002 105.588 115.038 124.524"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan230">Momentum Input</tspan></text>
+<path
+                 d="m 598.56,282.01 h 169.13 v -0.96 H 598.56 Z m 163.37,3.44 6.71,-3.92 -6.71,-3.91 c -0.23,-0.14 -0.52,-0.06 -0.66,0.17 -0.13,0.23 -0.05,0.52 0.18,0.66 l 6,3.5 v -0.83 l -6,3.5 c -0.23,0.13 -0.31,0.43 -0.18,0.65 0.14,0.23 0.43,0.31 0.66,0.18 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path234"
+                 inkscape:connector-curvature="0" /><path
+                 d="m 599.4,86.053 h 169.13 v -0.96 H 599.4 Z m 163.37,3.434 6.71,-3.914 -6.71,-3.915 c -0.23,-0.133 -0.52,-0.056 -0.66,0.173 -0.13,0.229 -0.05,0.523 0.18,0.656 l 6,3.5 v -0.829 l -6,3.5 c -0.23,0.134 -0.31,0.428 -0.18,0.657 0.14,0.229 0.43,0.306 0.66,0.172 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path236"
+                 inkscape:connector-curvature="0" /><path
+                 d="m 599.16,477.73 h 169.13 v -0.96 H 599.16 Z m 163.37,3.44 6.71,-3.92 -6.71,-3.91 c -0.23,-0.14 -0.52,-0.06 -0.66,0.17 -0.13,0.23 -0.05,0.52 0.18,0.66 l 6,3.5 v -0.83 l -6,3.5 c -0.23,0.13 -0.31,0.43 -0.18,0.65 0.14,0.23 0.43,0.31 0.66,0.18 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path238"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,778.18,471.28)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text242"><tspan
+                   x="0 9.9540005 15.714 21.743999 25.794001 31.823999 41.273998 50.723999 59.742001 63.917999 73.278 82.241997 89.334 98.783997 102.924 108.9 112.968 118.422 127.188 131.22 145.60201 154.56599 158.922 167.886 171.95399 177.98399"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan240">Attitude Result (Time = t)</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,778.18,449.68)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text246"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan244">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,787.78,449.68)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text250"><tspan
+                   x="0 11.07 20.664"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan248">DCM</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,778.18,428.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text254"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan252">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,787.78,428.08)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text258"><tspan
+                   x="0 12.114 21.563999 30.114 35.874001 44.838001 51.119999 60.57 64.709999 74.195999"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan256">Quaternion</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,778.18,406.45)"
+                 style="font-variant:normal;font-weight:normal;font-size:18.02400017px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text262"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan260">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,787.78,406.45)"
+                 style="font-variant:normal;font-weight:normal;font-size:18.02400017px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text266"><tspan
+                   x="0 8.7957125 18.258312 22.313711 31.289663 37.58004 41.743584 52.179482 61.642078 70.131386 74.276901 83.252853"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan264">Euler Angles</tspan></text>
+<path
+                 d="m 150,774.01 c 0,8.35 6.77,15.12 15.12,15.12 H 401.4 c 8.35,0 15.12,-6.77 15.12,-15.12 v -60.48 c 0,-8.35 -6.77,-15.12 -15.12,-15.12 H 165.12 c -8.35,0 -15.12,6.77 -15.12,15.12 z"
+                 style="fill:none;stroke:#000000;stroke-width:0.95999998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 id="path268"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,161.64,758.68)"
+                 style="font-variant:normal;font-weight:normal;font-size:20.04000092px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text272"><tspan
+                   x="0 9.5991602 20.120159 30.701281 40.059959 46.773361 51.382561 61.943642 72.464638 76.773239 87.33432 93.446518 97.895401 115.0296 125.59068 132.30408 136.91328 147.47437"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan270">Equation of Motion</tspan></text>
+<path
+                 d="m 161.62,756.42 h 52.68 52.68 52.68 V 755.1 H 266.98 214.3 161.62 Z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                 id="path274"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,161.64,736.6)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text278"><tspan
+                   x="0 11.556 21.006001 30.455999 39.006001 45.035999 49.085999 58.535999 67.068001"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan276">Updating </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,232.8,736.6)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text282"><tspan
+                   x="0 10.422 19.872 28.422001 37.872002 42.012001 50.633999 56.916 61.037998 70.398003 79.362 83.501999 92.987999 100.512 104.598 110.628 118.782 122.94 132.3 141.26401 148.87801 154.746 164.23199 170.51401"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan280">Angular Velocity Vector </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,161.64,715)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text286"><tspan
+                   x="0 4.086 13.536 17.747999 23.778 33.228001 42.192001 46.259998 53.82 63.306 70.793999 79.416 83.556 87.821999 97.416 106.902 116.388 122.382 131.832 135.972 145.422 153.936 159.696"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan284">in the Local Coordinate</tspan></text>
+<path
+                 d="m 433.44,774.01 c 0,8.35 6.77,15.12 15.12,15.12 h 236.28 c 8.35,0 15.12,-6.77 15.12,-15.12 v -60.48 c 0,-8.35 -6.77,-15.12 -15.12,-15.12 H 448.56 c -8.35,0 -15.12,6.77 -15.12,15.12 z"
+                 style="fill:none;stroke:#000000;stroke-width:0.95999998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 id="path288"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,445.18,758.58)"
+                 style="font-variant:normal;font-weight:normal;font-size:20.04000092px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text292"><tspan
+                   x="0 11.16228 17.635201 24.3486 28.9578 35.6712 46.1922 56.7132 66.693123 71.162041 83.486641 88.09584 93.96756 99.598801 109.57872 116.27208 126.252 136.55257 143.26596 147.87515 157.47432 161.98332 166.77287 176.37204 186.89304 197.47417 206.83284 213.54623 218.15544 228.71652"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan290">Attitude Differential Equation</tspan></text>
+<path
+                 d="m 445.12,756.31 h 59.82 59.82 59.82 59.82 v -1.32 h -59.82 -59.82 -59.82 -59.82 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                 id="path294"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,445.18,736.5)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text298"><tspan
+                   x="0 11.556 21.006001 30.455999 39.006001 45.035999 49.085999 58.535999 67.068001"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan296">Updating </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,516.34,736.5)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text302"><tspan
+                   x="0 10.422 19.872 28.422001 37.872002 42.012001 50.633999 56.916 61.037998 70.398003 79.362 83.501999 92.987999 100.512 104.598 110.628 118.782 122.94 132.3 141.26401 148.87801 154.746 164.23199 170.51401"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan300">Angular Velocity Vector </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,445.18,714.9)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text306"><tspan
+                   x="0 4.086 13.536 17.747999 23.778 33.228001 42.192001 46.259998 53.82 63.306 70.793999 79.416 83.556 87.821999 97.416 106.902 116.388 122.382 131.832 135.972 145.422 153.936 159.696"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan304">in the Local Coordinate</tspan></text>
+<path
+                 d="m 283.48,698.77 -0.04,-104.09 h 0.96 l 0.04,104.09 z m -3.47,-98.33 3.91,-6.71 3.92,6.71 c 0.13,0.23 0.05,0.52 -0.18,0.65 -0.22,0.14 -0.52,0.06 -0.65,-0.17 l -3.5,-6 h 0.82 l -3.49,6 c -0.14,0.23 -0.43,0.31 -0.66,0.18 -0.23,-0.14 -0.31,-0.43 -0.17,-0.66 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path308"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,291.14,672.66)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text312"><tspan
+                   x="0 10.422 19.872 28.422001 37.872002 42.012001 50.633999 56.916 60.984001 70.307999 79.272003 83.412003 92.898003 100.422 104.508 110.538"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan310">Angular Velocity</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,291.14,651.06)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text316"><tspan
+                   x="0 8.7659998 12.834 27.216 36.18 40.301998 49.265999"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan314">Time = </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,344.66,651.06)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text320"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan318">∆</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,354.86,651.06)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text324"><tspan
+                   x="0 6"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan322">t </tspan></text>
+<path
+                 d="m 283.92,636.37 255.12,-0.09"
+                 style="fill:none;stroke:#000000;stroke-width:0.95999998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 id="path326"
+                 inkscape:connector-curvature="0" /><path
+                 d="m 539.64,636.85 v -41.57 h -0.96 v 41.57 z m 3.43,-35.81 -3.91,-6.71 -3.91,6.71 c -0.14,0.23 -0.06,0.52 0.17,0.66 0.23,0.13 0.52,0.05 0.65,-0.17 l 3.5,-6 h -0.82 l 3.5,6 c 0.13,0.22 0.42,0.3 0.65,0.17 0.23,-0.14 0.31,-0.43 0.17,-0.66 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path328"
+                 inkscape:connector-curvature="0" /><path
+                 d="m 598.12,698.77 -0.04,-104.09 h 0.96 l 0.04,104.09 z m -3.47,-98.33 3.91,-6.71 3.92,6.71 c 0.13,0.23 0.05,0.52 -0.18,0.65 -0.22,0.14 -0.52,0.06 -0.65,-0.17 l -3.5,-6 h 0.83 l -3.5,6 c -0.14,0.23 -0.43,0.31 -0.66,0.18 -0.23,-0.14 -0.31,-0.43 -0.17,-0.66 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path330"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,608.62,672.66)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text334"><tspan
+                   x="0 11.07 20.664"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan332">DCM</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,648.82,672.66)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text338"><tspan
+                   x="0 9.4860001 15.768 19.908001 32.021999 41.472 50.021999 55.782001 64.746002 71.028 80.477997 84.617996 94.103996"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan336">or Quaternion</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,608.62,651.06)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text342"><tspan
+                   x="0 8.7659998 12.834 27.216 36.18 40.301998 49.265999 53.478001 63.630001 69.660004"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan340">Time = ∆t </tspan></text>
+<path
+                 d="m 36.12,744.25 h 112.44 v -0.96 H 36.12 Z m 106.68,3.44 6.71,-3.92 -6.71,-3.91 c -0.23,-0.14 -0.53,-0.06 -0.66,0.17 -0.13,0.23 -0.06,0.52 0.17,0.66 l 6,3.5 v -0.83 l -6,3.5 c -0.23,0.13 -0.3,0.43 -0.17,0.65 0.13,0.23 0.43,0.31 0.66,0.18 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path344"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,10.824,753.18)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text348"><tspan
+                   x="0 15.39 24.875999 39.257999 48.222 57.599998 63.630001 73.080002 87.461998 91.529999 96.066002 105.588 115.038 124.524"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan346">Momentum Input</tspan></text>
+<path
+                 d="m 598.8,636.85 h 169.13 v -0.96 H 598.8 Z m 163.37,3.44 6.71,-3.92 -6.71,-3.91 c -0.23,-0.14 -0.52,-0.06 -0.66,0.17 -0.13,0.23 -0.05,0.52 0.18,0.66 l 6,3.5 v -0.83 l -6,3.5 c -0.23,0.13 -0.31,0.43 -0.18,0.65 0.14,0.23 0.43,0.31 0.66,0.18 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path350"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,281.88,563.51)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text354"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan352">:</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,536.66,562.38)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text358"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan356">:</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,596.06,562.43)"
+                 style="font-variant:normal;font-weight:normal;font-size:18.02400017px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text362"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan360">:</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.05,275.6)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text366"><tspan
+                   x="0 9.9540005 15.714 21.743999 25.794001 31.823999 41.273998 50.723999 59.742001 63.917999 73.278 82.241997 89.334 98.783997 102.924 108.9 112.968 118.422 127.188 131.22 145.60201 154.56599 158.922 167.886 171.95399"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan364">Attitude Result (Time = t</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,959.35,275.6)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text370"><tspan
+                   x="0 8.9639997 13.032 23.256001"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan368">+ ∆t</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,988.63,275.6)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text374"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan372">)</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.05,254)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text378"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan376">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,786.65,254)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text382"><tspan
+                   x="0 11.07 20.664"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan380">DCM</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.05,232.4)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text386"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan384">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,786.65,232.4)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text390"><tspan
+                   x="0 12.114 21.563999 30.114 35.874001 44.838001 51.119999 60.57 64.709999 74.195999"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan388">Quaternion</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.05,210.8)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text394"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan392">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,786.65,210.8)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text398"><tspan
+                   x="0 8.7840004 18.233999 22.32 31.284 37.566002 41.742001 52.164001 61.613998 70.164001 74.25 83.213997"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan396">Euler Angles</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.05,630.23)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text402"><tspan
+                   x="0 9.9540005 15.714 21.743999 25.794001 31.823999 41.273998 50.723999 59.742001 63.917999 73.278 82.241997 89.334 98.783997 102.924 108.9 112.968 118.422 127.188 131.22 145.60201 154.56599 158.922 167.886"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan400">Attitude Result (Time = </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,949.15,630.23)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text406"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan404">∆</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,959.35,630.23)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text410"><tspan
+                   x="0 6"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan408">t)</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.05,608.63)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text414"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan412">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,786.65,608.63)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text418"><tspan
+                   x="0 11.07 20.664"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan416">DCM</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.05,587.03)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text422"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan420">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,786.65,587.03)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text426"><tspan
+                   x="0 12.114 21.563999 30.114 35.874001 44.838001 51.119999 60.57 64.709999 74.195999"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan424">Quaternion</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.05,565.43)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text430"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan428">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,786.65,565.43)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text434"><tspan
+                   x="0 8.7840004 18.233999 22.32 31.284 37.566002 41.742001 52.164001 61.613998 70.164001 74.25 83.213997"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan432">Euler Angles</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.46,80.293)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text438"><tspan
+                   x="0 9.9540005 15.714 21.743999 25.794001 31.823999 41.273998 50.723999 59.742001 63.917999 73.278 82.241997 89.334 98.783997 102.924 108.9 112.968 118.422 127.188 131.22 145.60201 154.56599 158.922 167.886 171.95399"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan436">Attitude Result (Time = t</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,959.74,80.293)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text442"><tspan
+                   x="0 9"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan440">+ </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,972.84,80.293)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text446"><tspan
+                   x="0 9.1199999"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan444">2∆</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,992.16,80.293)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text450"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan448">t</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,998.16,80.293)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text454"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan452">)</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.46,58.693)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text458"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan456">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,787.06,58.693)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text462"><tspan
+                   x="0 11.07 20.664"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan460">DCM</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.46,37.093)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text466"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan464">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,787.06,37.093)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text470"><tspan
+                   x="0 12.114 21.563999 30.114 35.874001 44.838001 51.119999 60.57 64.709999 74.195999"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan468">Quaternion</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.46,15.493)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text474"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan472">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,787.06,15.493)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text478"><tspan
+                   x="0 8.7840004 18.233999 22.32 31.284 37.566002 41.742001 52.164001 61.613998 70.164001 74.25 83.213997"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan476">Euler Angles</tspan></text>
+<path
+                 d="m 283.96,894.73 -0.04,-104.09 h 0.96 l 0.04,104.09 z m -3.47,-98.33 3.91,-6.71 3.92,6.71 c 0.13,0.23 0.05,0.52 -0.18,0.65 -0.22,0.14 -0.52,0.06 -0.65,-0.17 l -3.5,-6 h 0.83 l -3.5,6 c -0.14,0.23 -0.43,0.31 -0.66,0.18 -0.23,-0.14 -0.31,-0.43 -0.17,-0.66 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path480"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,291.72,868.6)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text484"><tspan
+                   x="0 4.5359998 14.022 18.108 24.138 28.188 36.810001 40.950001 45.09 55.512001 64.961998 73.512001 82.961998 87.101997 95.723999 102.006 106.074 115.398 124.362 128.502 137.98801 145.51199 149.59801 155.62801"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan482">Initial Angular Velocity</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,291.72,847)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text488"><tspan
+                   x="0 8.7659998 12.834 27.216 36.18 40.301998 49.265999 53.478001"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan486">Time = 0</tspan></text>
+<path
+                 d="m 284.52,832.33 255.12,-0.09"
+                 style="fill:none;stroke:#000000;stroke-width:0.95999998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 id="path490"
+                 inkscape:connector-curvature="0" /><path
+                 d="m 540.24,832.81 v -41.57 h -0.96 v 41.57 z m 3.43,-35.81 -3.91,-6.71 -3.91,6.71 c -0.14,0.23 -0.06,0.52 0.17,0.66 0.23,0.13 0.52,0.05 0.65,-0.17 l 3.5,-6 h -0.82 l 3.5,6 c 0.13,0.22 0.42,0.3 0.65,0.17 0.23,-0.14 0.31,-0.43 0.17,-0.66 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path492"
+                 inkscape:connector-curvature="0" /><path
+                 d="m 598.72,894.73 -0.04,-104.09 h 0.96 l 0.04,104.09 z m -3.47,-98.33 3.91,-6.71 3.92,6.71 c 0.13,0.23 0.05,0.52 -0.18,0.65 -0.22,0.14 -0.52,0.06 -0.65,-0.17 l -3.5,-6 h 0.82 l -3.49,6 c -0.14,0.23 -0.43,0.31 -0.66,0.18 -0.23,-0.14 -0.31,-0.43 -0.17,-0.66 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path494"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,609.19,868.6)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text498"><tspan
+                   x="0 4.5359998 14.022 18.108 24.138 28.188 36.810001 40.950001 45.09 56.16 65.753998 81.089996 85.265999 94.751999 101.034 105.174 117.288 126.738 135.28799 141.048 150.01199 156.29401 165.744 169.884 179.37"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan496">Initial DCM or Quaternion</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,609.19,847)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text502"><tspan
+                   x="0 8.7659998 12.834 27.216 36.18 40.301998 49.265999"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan500">Time = </tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,662.71,847)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text506"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan504">0</tspan></text>
+<path
+                 d="m 599.76,833.17 h 169.13 v -0.96 H 599.76 Z m 163.37,3.44 6.71,-3.92 -6.71,-3.91 c -0.23,-0.14 -0.52,-0.06 -0.66,0.17 -0.13,0.23 -0.05,0.52 0.18,0.66 l 6,3.5 v -0.83 l -6,3.5 c -0.23,0.13 -0.31,0.43 -0.18,0.65 0.14,0.23 0.43,0.31 0.66,0.18 z"
+                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path508"
+                 inkscape:connector-curvature="0" /><text
+                 transform="matrix(1,0,0,-1,777.89,826.31)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text512"><tspan
+                   x="0 9.9540005 15.714 21.743999 25.794001 31.823999 41.273998 50.723999 59.742001 63.917999 73.278 82.241997 89.334 98.783997 102.924 108.9 112.968 118.422 127.188 131.22 145.60201 154.56599 158.922 167.886 171.95399 181.08"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan510">Attitude Result (Time = 0)</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.89,804.71)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text516"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan514">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,787.49,804.71)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text520"><tspan
+                   x="0 11.07 20.664"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan518">DCM</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.89,783.11)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text524"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan522">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,787.49,783.11)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text528"><tspan
+                   x="0 12.114 21.563999 30.114 35.874001 44.838001 51.119999 60.57 64.709999 74.195999"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan526">Quaternion</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,777.89,761.51)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text532"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan530">-</tspan></text>
+<text
+                 transform="matrix(1,0,0,-1,787.49,761.51)"
+                 style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text536"><tspan
+                   x="0 8.7840004 18.233999 22.32 31.284 37.566002 41.742001 52.164001 61.613998 70.164001 74.25 83.213997"
+                   y="0"
+                   sodipodi:role="line"
+                   id="tspan534">Euler Angles</tspan></text>
+</g></g></g></g></g></g></svg>
