@@ -141,7 +141,7 @@ $$
 \end{align*}
 $$
 
-非圧縮を仮定した場合$\mathrm{div}\ \boldsymbol{v}=0$（[流体力学] 連続の式を参照）であり，運動方程式は簡単な形に書き換えられる．
+非圧縮を仮定した場合$\mathrm{div}\ \boldsymbol{v}=0$（[[流体力学] 連続の式](https://kanamesasaki.github.io/blog/20191121-continuity/)を参照）であり，運動方程式は簡単な形に書き換えられる．
 
 $$
 \begin{equation}

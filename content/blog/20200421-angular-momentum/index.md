@@ -35,7 +35,7 @@ $$
 \end{equation}
 $$
 
-ハミルトニアンとcommuteなので，$\sum_a r_a \times \nabla_a$に対応する物理量は保存量である（[量子力学] シュレーディンガー方程式）．ここで（係数はひとまずおいておいて），$\sum_a r_a \times \nabla_a$に対応する物理量を系の角運動量，$r_a \times \nabla_a$に対応する物理量を各粒子の角運動量と呼ぼう．いま運動量の演算子が$\hat{p}=-i\hbar \nabla$であることを思い出して，係数を$-i\hbar$付け加えれば，古典力学における角運動量と対応した形で，$-i\hbar r \times \nabla = r \times \hat{p}$と書き表すことが出来る．以上の考察から，角運動量の演算子を以下のように定義しよう．
+ハミルトニアンとcommuteなので，$\sum_a r_a \times \nabla_a$に対応する物理量は保存量である（[[量子力学] シュレーディンガー方程式](https://kanamesasaki.github.io/blog/20200422-schroedinger/)）．ここで（係数はひとまずおいておいて），$\sum_a r_a \times \nabla_a$に対応する物理量を系の角運動量，$r_a \times \nabla_a$に対応する物理量を各粒子の角運動量と呼ぼう．いま運動量の演算子が$\hat{p}=-i\hbar \nabla$であることを思い出して，係数を$-i\hbar$付け加えれば，古典力学における角運動量と対応した形で，$-i\hbar r \times \nabla = r \times \hat{p}$と書き表すことが出来る．以上の考察から，角運動量の演算子を以下のように定義しよう．
 
 $$
 \begin{equation}

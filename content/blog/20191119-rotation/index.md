@@ -276,7 +276,7 @@ ani = animation.FuncAnimation(fig2, update, frames = 200)
 ani.save('rotation.gif', writer='pillow')
 ```
 
-今回のケースは，オイラーの運動方程式（剛体の運動方程式を参照）に代入してやれば，角速度の時間発展が$(\omega_x, \omega_y, \omega_z) = (\cos t, \sin t, 1)$となることがすぐに分かる．実際，角速度のグラフはZ軸が一定，XY軸が振動して，予想通りの結果になっている．一方，クオータニオンの方は正直グラフを見ても，何がなんだか分からないので，クオータニオンから座標の基底ベクトルに変換して，座標の変化をアニメーションにしてみた．（細かいことは調整していないのでアニメーションの早さ等は適当．）
+今回のケースは，オイラーの運動方程式（[剛体の運動方程式](https://kanamesasaki.github.io/blog/20191117-rigidbody/)を参照）に代入してやれば，角速度の時間発展が$(\omega_x, \omega_y, \omega_z) = (\cos t, \sin t, 1)$となることがすぐに分かる．実際，角速度のグラフはZ軸が一定，XY軸が振動して，予想通りの結果になっている．一方，クオータニオンの方は正直グラフを見ても，何がなんだか分からないので，クオータニオンから座標の基底ベクトルに変換して，座標の変化をアニメーションにしてみた．（細かいことは調整していないのでアニメーションの早さ等は適当．）
 
 <div align="center"><img src=".\rotation.gif" width="400" title="Rigid Body Rotation"></div>
 <div align="center"><img src=".\rotation.png" width="600" title="Rigid Body Rotation"></div>
