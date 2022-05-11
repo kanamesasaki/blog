@@ -14,11 +14,15 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "G-CCZTCJYRD8",
-		head: true,
-        anonymize: true,
+        trackingIds: ["G-CCZTCJYRD8"],
+        gtagConfig: {
+          anonymize_ip: true,
+        },
+        pluginConfig: {
+          head: true,
+        },
       },
     },
     `gatsby-plugin-image`,
