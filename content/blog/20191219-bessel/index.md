@@ -67,7 +67,7 @@ $$
 \begin{gather*}
 A_0 \left\{ (\lambda - 1)\lambda + p_0 \lambda + q_0 \right\} = 0 \\
 A_0 ( p_1 \lambda + q_1 ) + A_1 \left\{ \lambda(\lambda+1) + p_0 (\lambda+1) + q_0 \right\} = 0 \\
-A_0 ( p_2 \lambda + q_2 ) + A_1 \left\{ \lambda(p_1 (\lambda+1) + q_1 \right\} + A_2 \left\{ (\lambda+1)(\lambda+2) + p_0 (\lambda+2) + q_0 \right\}= 0 \\
+A_0 ( p_2 \lambda + q_2 ) + A_1 \left\{ p_1 (\lambda+1) + q_1 \right\} + A_2 \left\{ (\lambda+1)(\lambda+2) + p_0 (\lambda+2) + q_0 \right\}= 0 \\
 \vdots
 \end{gather*}
 $$
@@ -209,7 +209,7 @@ I_{\nu} = \sum_{m=0}^{\infty} \frac{1}{m! \Gamma (\nu+m+1)} \left( \frac{z}{2} \
 \end{equation}
 $$
 
-また，$e^{\frac{1}{2}\nu \pi i} J_{\nu} (iz)$も(\ref{eq:1983Terasawa_1164})の解となる．
+また，$e^{\frac{1}{2}\nu \pi i} J_{\nu} (iz)$も(14)の解となる．
 
 $$
 \begin{equation}

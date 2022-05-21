@@ -5,6 +5,9 @@ description: "What is view factor?"
 tags: ["Thermal", "Ray tracing"]
 ---
 
+View Factorの具体的な値が知りたい方はこちらへ：
+[View Factor Calculation: Analytical and Monte Carlo Method](https://kanamesasaki.github.io/viewfactor/)
+
 ## 熱輻射と形態係数（View Factor）の関係
 
 どんな物体も，表面から常に電磁波としてエネルギーを放射している．
@@ -31,7 +34,6 @@ View Factorの議論をする前に立体角の定義について確認してお
 もし，微小表面$dA_i$の視野全体を占めるような物体があれば，微小表面からその物体への立体角は半径1の半球の表面積$2\pi$となる．
 
 <div align="center"><img src=".\solidangle.svg" width="300"></div>
-<!-- ![Solid Angle](.\solidangle.svg)  -->
 
 では，微小表面$dA_i$から微小表面$dA_j$への立体角をきちんと数式で定義しよう．
 2つの微小表面間の距離を$S$，微小表面の法線ベクトルを視線方向とのなす角をそれぞれ$\theta_i$, $\theta_j$とする．

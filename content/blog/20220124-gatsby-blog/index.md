@@ -165,3 +165,31 @@ plugins: [
 <div align="center"><img src=".\figurename.svg" width="300"></div>
 ```
 
+## Google Analyticsの設定
+
+gatsby-starter-blogにはgatsby-plugin-google-analyticsがインストールされているが，新しいGoogleアナリティクス（GA4）には対応していないようなので，そちらを使用する場合はgatsby-plugin-google-gtagに移行する必要がある．
+
+```shell
+npm uninstall gatsby-plugin-google-analytics
+```
+
+```shell
+npm install gatsby-plugin-google-gtag
+```
+gatsby-plugin-google-gtagをインストールしたら，gatsby-config.jsのgatsby-plugin-google-analyticsに関する記述は削除して，以下のスクリプトを追加する．
+
+```js
+{
+  resolve: `gatsby-plugin-google-gtag`,
+  options: {
+    trackingIds: ["G-XXXXXXXXXX"],
+    gtagConfig: {
+      anonymize_ip: true,
+    },
+    pluginConfig: {
+      head: true,
+    },
+  },
+},
+```
+

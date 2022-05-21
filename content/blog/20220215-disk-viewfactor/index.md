@@ -7,10 +7,10 @@ tags: ["Thermal", "View factor"]
 
 ## 微小表面から円板へのView Factor
 
-今回は，微小表面から円板へのView Factor例に，View Factorの具体的な計算方法を説明する．
+今回は，微小表面から円板へのView Factor例に，View Factorの解析解を導出する方法について解説する（View Factorの具体的な値が知りたい方はこちらへ：[View Factor Calculation: Analytical and Monte Carlo Method](https://kanamesasaki.github.io/viewfactor/)）．
 微小表面と円板の形状，および位置関係は以下の図のように，$(R,~h,~\omega)$によって表されるものとする．
 
-<div align="center"><img src=".\disk.svg" width="300"></div>
+<div align="center"><img src=".\disk.svg" width="350"></div>
 
 ## 面積分によるView Factorの計算
 
@@ -48,7 +48,7 @@ $$
 ここまでに計算したのは，円板全体が見えている場合だ．もし微小表面の方向がもう少し倒れてくる（$\omega$が大きくなる）と，円板の一部が視野の水平線の下に落ち込んで見えなくなる．
 このような場合，円板の見えている部分のみについて面積分しないといけないので，計算が一気に煩雑になる．
 
-<div align="center"><img src=".\disk_area.svg" width="300"></div>
+<div align="center"><img src=".\disk_area.svg" width="350"></div>
 
 積分を実行するために，積分領域を2つに分割する．1つ目は円弧状の領域（$0 \le \beta \le \beta_0$）．2つ目は三角形状の領域である．
 
@@ -275,7 +275,7 @@ $$
 \end{align*}
 $$
 
-<div align="center"><img src=".\disk_line.svg" width="300"></div>
+<div align="center"><img src=".\disk_line.svg" width="350"></div>
 
 これで，View Factorを実際に計算する準備が整った．
 ひとつ注意点として，円板の向きを表すベクトル$(l_2, m_2, n_2)$は下向きで，このベクトルに関して右回りになるように積分する．
