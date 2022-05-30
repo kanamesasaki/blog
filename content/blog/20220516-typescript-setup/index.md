@@ -1,11 +1,11 @@
 ---
-title: TypeScriptでWebアプリを作ってGithub Pagesにデプロイする
+title: TypeScriptとThree.jsでWebアプリを作ってGithub Pagesにデプロイする
 date: "2022-05-16T00:00:00.000Z"
-description: "Deploy TypeScript app on Github Pages"
+description: "Develop a browser app with TypeScript and Three.js. Then deploy it on Github Pages"
 tags: ["Programming", "Typescript"]
 ---
 
-今回は，TypeScriptで簡単なWebアプリ（Three.jsを使って3Dグラフィクス表示する）を作成してGithub Pagesにデプロイする際の手順についてまとめておきます．
+今回は，TypeScriptでThree.jsを使ったWebアプリを作成してGithub Pagesにデプロイする際の手順についてまとめておきます．
 
 ## プロジェクトのセットアップ
 
@@ -43,17 +43,18 @@ npx tsc --init
 ```
 
 TypeScriptをコンパイルして最終的にデプロイするのに必要なパッケージをインストールする．
-webpack-dev-serverは必須ではないが，ローカルサーバーをたてて作成したアプリの動作確認をするのに便利なので入れておく．
+webpack-dev-serverは，ローカルサーバーをたてて作成したアプリの動作確認をするのに便利なので入れておく．
 
 ```shell
 npm install --save-dev webpack webpack-cli ts-loader webpack-dev-server
 ```
 
-今回は，例として3Dグラフィクス表示するアプリを作ってみよう．
-そこでThree.jsおよびその型定義をインストールする．
+Three.jsとdat.gui，およびそれぞれの型定義をインストールする．
+dat.guiはGUIのモジュールで，グラフィックに関するパラメタをインタラクティブに変更するのに便利なツールだ．
 
 ```shell
 npm install three @types/three
+npm install dat.gui @types/dat.gui
 ```
 
 追加でコードテストするためのライブラリをインストールする．
