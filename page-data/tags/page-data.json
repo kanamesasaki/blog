@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-tags-js",
+    "path": "/tags/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Blog"}},"allMarkdownRemark":{"group":[{"fieldValue":"Fluid dynamics","totalCount":10},{"fieldValue":"Mechanics","totalCount":4},{"fieldValue":"Misc","totalCount":2},{"fieldValue":"Programming","totalCount":9},{"fieldValue":"Quantum physics","totalCount":10},{"fieldValue":"Statistical mechanics","totalCount":8},{"fieldValue":"Thermal","totalCount":7}]}},"pageContext":{}},
+    "staticQueryHashes": []}
