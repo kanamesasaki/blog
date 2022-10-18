@@ -2,7 +2,7 @@
 title: TypeScriptとThree.jsでWebアプリを作ってGithub Pagesにデプロイする
 date: "2022-05-16T00:00:00.000Z"
 description: "Develop a browser app with TypeScript and Three.js. Then deploy it on Github Pages"
-tags: ["Programming", "Typescript"]
+tags: ["Programming"]
 ---
 
 今回は，TypeScriptでThree.jsを使ったWebアプリを作成してGithub Pagesにデプロイする際の手順についてまとめておきます．

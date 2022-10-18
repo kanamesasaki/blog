@@ -2,7 +2,7 @@
 title: "[構造力学] バイメタル変形の解析解"
 date: "2020-01-27T00:00:00.000Z"
 description: "Basics of the bimetal deformation"
-tags: ["structural mechanics"]
+tags: ["Mechanics"]
 ---
 
 材質の異なる薄板を張り合わせると，例えば常温ではまっすぐ平らだったものが，高温・低温の状態にすると”そり”が生じてしまうことがある．これは，それぞれの材質が異なる熱膨張率を持っていることに起因する変形で，バイメタル効果と呼ばれる．

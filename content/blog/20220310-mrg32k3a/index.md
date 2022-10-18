@@ -2,7 +2,7 @@
 title: MRG32k3aを使ってGPU上で乱数を発生させる
 date: "2022-03-10T00:00:00.000Z"
 description: "Generate random numbers by MRG32k3a on GPU WebGL2 environment"
-tags: ["GPU", "Random number"]
+tags: ["Programming"]
 ---
 
 ## やりたいこと

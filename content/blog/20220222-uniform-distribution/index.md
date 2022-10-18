@@ -2,7 +2,7 @@
 title: いろいろな形状の表面に点を一様分布させる
 date: "2022-02-22T00:00:00.000Z"
 description: "Uniformly distribute points on primitive geometries"
-tags: ["Thermal", "Ray tracing"]
+tags: ["Thermal"]
 ---
 
 ## やりたいこと

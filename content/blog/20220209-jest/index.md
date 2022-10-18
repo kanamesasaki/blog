@@ -2,7 +2,7 @@
 title: ES6モジュールをJestテストする
 date: "2022-02-09T00:00:00.000Z"
 description: "Jest testing environment for JavaScript/TypeScript ES6 modules"
-tags: ["Programming", "JavaScript", "Typescript"]
+tags: ["Programming"]
 ---
 
 ## やりたいこと

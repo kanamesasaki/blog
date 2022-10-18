@@ -2,7 +2,7 @@
 title: GatsbyとGitHub Pagesで作るMarkdownブログ
 date: "2022-01-24T00:00:00.000Z"
 description: "How to setup a Markdown format blog based on Gatsby and GitHub Pages"
-tags: ["GitHub Pages", "Gatsby"]
+tags: ["Programming"]
 ---
 
 ## Gatsbyのセットアップ

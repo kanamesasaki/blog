@@ -2,7 +2,7 @@
 title: "Windows 10に日本語IMEをインストールする際のエラー対処法"
 date: "2020-03-15T00:00:00.000Z"
 description: "Errors when installing Japanese IME on non-Japanese Windows 10"
-tags: ["Notes"]
+tags: ["Misc"]
 ---
 
 外国語版Windows 10で日本語入力をしたい場合，基本的にはJapanese Microsoft IMEを追加すれば良いだけなのですが，私の環境ではハマったので対策法をメモしておきます．参考にしたのは以下のページです．

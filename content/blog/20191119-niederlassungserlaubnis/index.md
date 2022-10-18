@@ -2,7 +2,7 @@
 title: "Niederlassungserlaubnis（ドイツの無期限滞在許可）の取り方"
 date: "2019-11-19T12:00:00.000Z"
 description: "How to get Niederlassungserlaubnis"
-tags: ["Deutsch"]
+tags: ["Misc"]
 ---
 
 ## 無期限滞在許可取得の条件

@@ -2,7 +2,7 @@
 title: ルンゲクッタ法の精度確認
 date: "2019-11-20T00:00:00.000Z"
 description: "Accuracy of the Runge-Kutta method"
-tags: ["Numerical calculation"]
+tags: ["Programming"]
 ---
 
 ## ルンゲクッタ法の更新式

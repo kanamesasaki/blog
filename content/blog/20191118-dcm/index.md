@@ -2,7 +2,7 @@
 title: DCM・オイラー角・クォータニオン
 date: "2019-11-18T00:00:00.000Z"
 description: "Describing attitude of an object by DCM, Euler angle, and Quaternion"
-tags: ["Mechanics", "Kinematics"]
+tags: ["Mechanics"]
 ---
 
 ## 物体の姿勢表現

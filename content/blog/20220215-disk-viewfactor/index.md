@@ -2,7 +2,7 @@
 title: 微小表面から円板への形態係数（View Factor）
 date: "2022-02-15T00:00:00.000Z"
 description: "View factor from a differential surface to a disk"
-tags: ["Thermal", "View factor"]
+tags: ["Thermal"]
 ---
 
 ## 微小表面から円板へのView Factor

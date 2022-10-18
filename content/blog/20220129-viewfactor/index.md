@@ -2,7 +2,7 @@
 title: 形態係数（View Factor）とは
 date: "2022-01-29T00:00:00.000Z"
 description: "What is view factor?"
-tags: ["Thermal", "Ray tracing"]
+tags: ["Thermal"]
 ---
 
 View Factorの具体的な値が知りたい方はこちらへ：

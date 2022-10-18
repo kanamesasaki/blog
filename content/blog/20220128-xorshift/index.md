@@ -2,7 +2,7 @@
 title: Xorshiftをざっくり理解する
 date: "2022-01-28T00:00:00.000Z"
 description: "Get an idea of Xorshift"
-tags: ["Programming", "Xorshift"]
+tags: ["Programming"]
 ---
 
 ## はじめに

@@ -2,7 +2,7 @@
 title: TypeScriptのジェネリクスでinstanceof Tしたい
 date: "2022-04-14T00:00:00.000Z"
 description: "How to use instanceof with generics in TypeScript"
-tags: ["TypeScript", "Programming"]
+tags: ["Programming"]
 ---
 
 ## やりたいこと

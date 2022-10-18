@@ -2,7 +2,7 @@
 title: 拡散反射と鏡面反射のモデル化
 date: "2022-01-30T00:00:00.000Z"
 description: "Modeling of the diffuse and specular reflection"
-tags: ["Ray tracing"]
+tags: ["Thermal"]
 ---
 
 ## 光のモデリング

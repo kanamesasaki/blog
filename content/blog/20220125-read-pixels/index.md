@@ -2,7 +2,7 @@
 title: フラグメントシェーダからCPUへのデータ受け渡し
 date: "2022-01-25T00:00:00.000Z"
 description: "Transfering data from the fragment shader to CPU by using WebGL readPixels"
-tags: ["Programming", "GLSL", "JavaScript", "WebGL"]
+tags: ["Programming"]
 ---
 
 ## やりたいこと
