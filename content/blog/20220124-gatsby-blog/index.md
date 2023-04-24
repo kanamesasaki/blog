@@ -63,7 +63,7 @@ publicフォルダは.gitignoreに指定されているので，Gitには監視�
 git push origin main
 ```
 
-GitHub Pagesを使ってblogという名前でプロジェクトサイトを作る場合，トップページがこのようなURL(https\://username.github.io/blog/)になる．
+GitHub Pagesを使ってblogという名前でプロジェクトサイトを作る場合，トップページがこのようなURL(`https://username.github.io/blog/`)になる．
 各ページへのパスを/blog/以下に割り振るために，gatsby-config.jsにpathPrefixを追加して，ビルドする際に--prefix-pathsフラグを入れる．
 
 ```js

@@ -101,7 +101,7 @@ $$
 \begin{equation}
 \left[ ~c~ \right] \left[ \Delta T \right] 
 = \left\{ 
-\left[ ~k~ \right] \left[ T_i \right] + \left[ R \right] \left[ T^4 \right]
+\left[ ~k~ \right] \left[ T_i \right] + \left[ R \right] \left[ T^4 \right] + [~q~]
 \right\} \Delta t
 \end{equation}
 $$
@@ -270,9 +270,21 @@ $$
 
 $$
 \begin{equation}
-k_\mathrm{eff} A (T_1 - T_{12}) = k A_\Delta (T_1 - T_{12}) + f(\lambda, \epsilon) (T_1^4 - T_{12}^4)
+\frac{k_\mathrm{eff} A}{h} (T_1 - T_{12}) = \frac{k A_\Delta}{h} (T_1 - T_{12}) + f(d, h, \epsilon_{1,12}, \epsilon_{2...11}) (T_1^4 - T_{12}^4)
 \end{equation}
 $$
+
+モデルを表現するのに必要となるパラメタを確認しておこう．
+
+- $d$: (equivalent) diameter of the honeycomb core
+- $h$: height of the honeycomb core
+- $A_{\Delta}$: (equivalent) core thickness
+- $A$: area of the honeycomb core
+- $k$: thermal conductivity of the honeycomb core material
+- $\epsilon_{1,12}$: emissivity of the face sheet
+- $\epsilon_{2...11}$: emissivity of the honeycomb core
+- $T_1$: face sheet temperature on one side
+- $T_{12}$: face sheet temperature on the other side
 
 Swann, PittmanのTechnical Note[^2]では，$f(\lambda, \epsilon)$がどのような形がよいかをトライアンドエラーで探したところ次の式を使うといい感じだよ，と報告されている．
 どのようなモチベーションでこの式の形が出てきたのかは謎だが，実用上では便利に用いられているようで，実際この式が様々な論文[^3] [^4] [^5] [^6]で引用されている．
