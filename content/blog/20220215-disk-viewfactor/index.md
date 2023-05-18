@@ -86,7 +86,7 @@ $$
 $$
 \begin{align*}
 &\int^R_0 \frac{2r^2h \sin \omega \sin \beta_0}{\pi (r^2 + h^2)^2}dr
-= \frac{2 \sin \omega \sin \alpha_0}{\pi} \int_0^{\frac{R}{h}} \frac{u^2}{(u^2 + 1)^2} du,
+= \frac{2 \sin \omega \sin \beta_0}{\pi} \int_0^{\frac{R}{h}} \frac{u^2}{(u^2 + 1)^2} du,
 \hspace{10pt} \mathrm{where}\ u=\frac{r}{h}\\
 &= \frac{2 \sin \omega \sin \beta_0}{\pi} \int_0^{\arctan \frac{R}{h}} \frac{\tan^2 t}{(\tan^2 t + 1)^2} \frac{dt}{\cos^2 t},
 \hspace{10pt} \mathrm{where}\ \tan t=u \\
@@ -113,11 +113,11 @@ $$
 
 $$
 \begin{align*}
-&\int_0^{R \sin \beta_0} \int^{\frac{y}{\tan \alpha_0}}_{R \cos \alpha_0} \frac{2xh \sin \omega}{\pi (x^2 + y^2 + h^2)^2} dx dy
+&\int_0^{R \sin \beta_0} \int^{\frac{y}{\tan \beta_0}}_{R \cos \beta_0} \frac{2xh \sin \omega}{\pi (x^2 + y^2 + h^2)^2} dx dy
 = \int_0^{R \sin \beta_0} \left[ - \frac{h \sin \omega}{\pi (x^2 + y^2 + h^2)} \right]^{\frac{y}{\tan \beta_0}}_{R \cos \beta_0} dy \\
-&= \frac{h \sin \omega}{\pi}\int_0^{R \sin \alpha_0} \left( \frac{1}{y^2 + h^2 + R^2 \cos^2 \beta_0} - \frac{1}{\frac{y^2}{\sin^2 \beta_0} + h^2} \right) dy \\
+&= \frac{h \sin \omega}{\pi}\int_0^{R \sin \beta_0} \left( \frac{1}{y^2 + h^2 + R^2 \cos^2 \beta_0} - \frac{1}{\frac{y^2}{\sin^2 \beta_0} + h^2} \right) dy \\
 &= \frac{h \sin \omega}{\pi}\int_0^{R \sin \beta_0} \frac{1}{\frac{y^2}{h^2 + R^2 \cos^2 \beta_0} + 1} \frac{dy}{h^2 + R^2 \cos^2 \beta_0} - \frac{h \sin \omega}{\pi} \int_0^{R \sin \beta_0} \frac{1}{\frac{y^2}{h^2 \sin^2 \beta_0} + 1} \frac{dy}{h^2} \\
-&= \frac{h \sin \omega}{\pi} \int_0^{\arctan \frac{R\sin \beta_0}{\sqrt{h^2 + R^2 \cos^2 \beta_0}}} \frac{du}{\sqrt{h^2 + R^2 \cos^2 \alpha_0}} - \frac{h \sin \omega}{\pi} \int_0^{\arctan \frac{R}{h}} \frac{\sin \beta_0}{h} dv \\
+&= \frac{h \sin \omega}{\pi} \int_0^{\arctan \frac{R\sin \beta_0}{\sqrt{h^2 + R^2 \cos^2 \beta_0}}} \frac{du}{\sqrt{h^2 + R^2 \cos^2 \beta_0}} - \frac{h \sin \omega}{\pi} \int_0^{\arctan \frac{R}{h}} \frac{\sin \beta_0}{h} dv \\
 &= \frac{h \sin \omega}{\pi \sqrt{h^2 + R^2 \cos^2 \beta_0}} \arctan \frac{R\sin \beta_0}{\sqrt{h^2 + R^2 \cos^2 \beta_0}} - \frac{\sin \omega \sin \beta_0}{\pi} \arctan \frac{R}{h}
 \end{align*}
 $$
@@ -128,13 +128,13 @@ $$
 
 $$
 \begin{align*}
-&\int_0^{x \tan \alpha_0} \frac{1}{(y^2 + x^2 + h^2)^2} dy
-= \int_0^{x \tan \alpha_0} \frac{\frac{1}{(x^2 + h^2)^2}}{(\frac{y^2}{x^2 + h^2} + 1)^2} dy
-= \frac{\sqrt{x^2 + h^2}}{(x^2 + h^2)^2} \int_0^{\frac{x \tan \alpha_0}{\sqrt{x^2 + h^2}}} \frac{1}{(u^2 + 1)^2} du \\
-&= \frac{\sqrt{x^2 + h^2}}{(x^2 + h^2)^2} \int_0^{\arctan(\frac{x \tan \alpha_0}{\sqrt{x^2 + h^2}})} \frac{1}{(\tan^2 t + 1)^2} \frac{1}{\cos^2 t}dt \\&= \frac{\sqrt{x^2 + h^2}}{(x^2 + h^2)^2} \int_0^{\arctan(\frac{x \tan \alpha_0}{\sqrt{x^2 + h^2}})} \cos^2 t dt
-= \frac{\sqrt{x^2 + h^2}}{2(x^2 + h^2)^2} \int_0^{\arctan(\frac{x \tan \alpha_0}{\sqrt{x^2 + h^2}})} \cos 2t + 1 dt \\&= \frac{\sqrt{x^2 + h^2}}{2(x^2 + h^2)^2} \left[ \frac{1}{2}\sin 2t + t\right]_0^{\arctan(\frac{x \tan \alpha_0}{\sqrt{x^2 + h^2}})}
-= \frac{\sqrt{x^2 + h^2}}{2(x^2 + h^2)^2} \left[ \frac{\tan t}{\tan^2 t + 1} + t\right]_0^{\arctan(\frac{x \tan \alpha_0}{\sqrt{x^2 + h^2}})} \\&= \frac{\sqrt{x^2 + h^2}}{2(x^2 + h^2)^2} \left\{ \frac{\frac{x \tan \alpha_0}{\sqrt{x^2 + h^2}}}{\frac{x^2 \tan^2 \alpha_0}{x^2 + h^2} + 1} + \arctan \left(\frac{x \tan \alpha_0}{\sqrt{x^2 + h^2}}\right)\right\} \\
-&= \frac{1}{2} (x^2 + h^2)^{-1} \frac{x \tan \alpha_0}{x^2 (\tan^2 \alpha_0 + 1) + h^2} + \frac{1}{2} (x^2 + h^2)^{-\frac{3}{2}} \arctan \frac{x \tan \alpha_0}{\sqrt{x^2 + h^2}}
+&\int_0^{x \tan \beta_0} \frac{1}{(y^2 + x^2 + h^2)^2} dy
+= \int_0^{x \tan \beta_0} \frac{\frac{1}{(x^2 + h^2)^2}}{(\frac{y^2}{x^2 + h^2} + 1)^2} dy
+= \frac{\sqrt{x^2 + h^2}}{(x^2 + h^2)^2} \int_0^{\frac{x \tan \beta_0}{\sqrt{x^2 + h^2}}} \frac{1}{(u^2 + 1)^2} du \\
+&= \frac{\sqrt{x^2 + h^2}}{(x^2 + h^2)^2} \int_0^{\arctan(\frac{x \tan \beta_0}{\sqrt{x^2 + h^2}})} \frac{1}{(\tan^2 t + 1)^2} \frac{1}{\cos^2 t}dt \\&= \frac{\sqrt{x^2 + h^2}}{(x^2 + h^2)^2} \int_0^{\arctan(\frac{x \tan \beta_0}{\sqrt{x^2 + h^2}})} \cos^2 t dt
+= \frac{\sqrt{x^2 + h^2}}{2(x^2 + h^2)^2} \int_0^{\arctan(\frac{x \tan \beta_0}{\sqrt{x^2 + h^2}})} \cos 2t + 1 dt \\&= \frac{\sqrt{x^2 + h^2}}{2(x^2 + h^2)^2} \left[ \frac{1}{2}\sin 2t + t\right]_0^{\arctan(\frac{x \tan \beta_0}{\sqrt{x^2 + h^2}})}
+= \frac{\sqrt{x^2 + h^2}}{2(x^2 + h^2)^2} \left[ \frac{\tan t}{\tan^2 t + 1} + t\right]_0^{\arctan(\frac{x \tan \beta_0}{\sqrt{x^2 + h^2}})} \\&= \frac{\sqrt{x^2 + h^2}}{2(x^2 + h^2)^2} \left\{ \frac{\frac{x \tan \beta_0}{\sqrt{x^2 + h^2}}}{\frac{x^2 \tan^2 \beta_0}{x^2 + h^2} + 1} + \arctan \left(\frac{x \tan \beta_0}{\sqrt{x^2 + h^2}}\right)\right\} \\
+&= \frac{1}{2} (x^2 + h^2)^{-1} \frac{x \tan \beta_0}{x^2 (\tan^2 \beta_0 + 1) + h^2} + \frac{1}{2} (x^2 + h^2)^{-\frac{3}{2}} \arctan \frac{x \tan \beta_0}{\sqrt{x^2 + h^2}}
 \end{align*}
 $$
 
@@ -142,8 +142,8 @@ $$
 
 $$
 \begin{gather*}
-\frac{x \tan \alpha_0}{\sqrt{x^2 + h^2}} = \tan u \\
-h^2 \tan \alpha_0 (x^2 + h^2)^{-\frac{3}{2}} dx = \frac{du}{\cos^2 u}
+\frac{x \tan \beta_0}{\sqrt{x^2 + h^2}} = \tan u \\
+h^2 \tan \beta_0 (x^2 + h^2)^{-\frac{3}{2}} dx = \frac{du}{\cos^2 u}
 \end{gather*}
 $$
 
@@ -151,8 +151,8 @@ $$
 
 $$
 \begin{align*}
-&\int^0_{R \cos \beta_0} \frac{1}{2} (x^2 + h^2)^{-\frac{3}{2}} \arctan \frac{x \tan \alpha_0}{\sqrt{x^2 + h^2}} dx \\
-&= \int^0_{\arctan \left( \frac{R \sin \beta_0}{\sqrt{R^2 \cos^2 \alpha_0 + h^2}} \right)} \frac{u du}{2 h^2 \tan \beta_0 \cos^2 u}
+&\int^0_{R \cos \beta_0} \frac{1}{2} (x^2 + h^2)^{-\frac{3}{2}} \arctan \frac{x \tan \beta_0}{\sqrt{x^2 + h^2}} dx \\
+&= \int^0_{\arctan \left( \frac{R \sin \beta_0}{\sqrt{R^2 \cos^2 \beta_0 + h^2}} \right)} \frac{u du}{2 h^2 \tan \beta_0 \cos^2 u}
 = \frac{1}{2h^2 \tan \beta_0}\left[ u \tan u + \log (\cos u) \right]^0_{\arctan \left( \frac{R \sin \beta_0}{\sqrt{R^2 \cos^2 \beta_0 + h^2}} \right)} \\
 &= -\frac{1}{2h^2 \tan \beta_0} \left[ \frac{R \sin \beta_0}{\sqrt{R^2 \cos^2 \beta_0 + h^2}} \arctan \left( \frac{R \sin \beta_0}{\sqrt{R^2 \cos^2 \beta_0 + h^2}} \right)
 \log \left\{ \cos \left( \arctan \left( \frac{R \sin \beta_0}{\sqrt{R^2 \cos^2 \beta_0 + h^2}} \right) \right) \right\} \right]
@@ -173,7 +173,7 @@ $$
 $$
 \begin{align*}
 &\int^0_{R \cos \beta_0} \int_0^{x \tan \beta_0} \frac{2h^2 \cos \omega}{\pi (x^2 + y^2 + h^2)^2} dy dx \\
-&= -\frac{\cos \omega}{\pi \tan \beta_0} \left[ \frac{R \sin \beta_0}{\sqrt{R^2 \cos^2 \alpha_0 + h^2}} \arctan \left( \frac{R \sin \beta_0}{\sqrt{R^2 \cos^2 \beta_0 + h^2}} \right)
+&= -\frac{\cos \omega}{\pi \tan \beta_0} \left[ \frac{R \sin \beta_0}{\sqrt{R^2 \cos^2 \beta_0 + h^2}} \arctan \left( \frac{R \sin \beta_0}{\sqrt{R^2 \cos^2 \beta_0 + h^2}} \right)
 \log \left\{ \cos \left( \arctan \left( \frac{R \sin \beta_0}{\sqrt{R^2 \cos^2 \beta_0 + h^2}} \right) \right) \right\} \right] \\
 &\hspace{12pt}- \frac{\cos \omega}{2 \pi \tan \beta_0} \log \left( 1 + \frac{R^2 \sin^2 \beta_0}{R^2 \cos^2 \beta_0 + h^2} \right)
 \end{align*}
@@ -292,9 +292,14 @@ $$
 &\hspace{12pt}- \frac{R^2}{2 \pi (R^2 + h^2)} \int_{\alpha_0}^{-\alpha_0} d\alpha
 - \frac{R \cos \omega \cos \alpha_0}{2 \pi} \int_{\arctan(-\frac{R \sin \alpha_0}{\sqrt{R^2 \cos^2 \alpha_0 + h^2}})}^{\arctan(\frac{R \sin \alpha_0}{\sqrt{R^2 \cos^2 \alpha_0 + h^2}})} \frac{dt}{\sqrt{R^2 \cos^2 \alpha_0 + h^2}} \\
 &= - \frac{Rh \sin \omega \sin \alpha_0}{\pi (R^2 + h^2)} + \frac{h \sin \omega}{\pi \sqrt{R^2 \cos^2 \alpha_0 + h^2}} \arctan \left( \frac{R \sin \alpha_0}{\sqrt{R^2 \cos^2 \alpha_0 + h^2}} \right) \\
-&\hspace{12pt}+ \frac{R^2 \alpha_0}{\pi (R^2 + h^2)} - \frac{R \cos \omega \cos \alpha_0}{\pi \sqrt{R^2 \cos^2 \alpha_0 + h^2}} \arctan \left( \frac{R \sin \alpha_0}{\sqrt{R^2 \cos^2 \alpha_0 + h^2}} \right)
+&\hspace{12pt}+ \frac{R^2 \alpha_0 \cos\omega}{\pi (R^2 + h^2)} - \frac{R \cos \omega \cos \alpha_0}{\pi \sqrt{R^2 \cos^2 \alpha_0 + h^2}} \arctan \left( \frac{R \sin \alpha_0}{\sqrt{R^2 \cos^2 \alpha_0 + h^2}} \right)
 \end{align*}
 $$
 
 非常に煩雑だった面積分の計算が，線積分に置き換えることでかなり簡略化されたのが分かる
+
+
+<!-- 
+17.05.2023: disk_line.svgおよび式内のalpha_0, beta_0がごちゃごちゃになっていたのを修正 
+-->
 
