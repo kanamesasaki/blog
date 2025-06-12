@@ -6,7 +6,7 @@ tags: ["Thermal"]
 ---
 
 View Factorの具体的な値が知りたい方はこちらへ：
-[View Factor Calculation: Analytical and Monte Carlo Method](https://kanamesasaki.github.io/viewfactor/)
+[View Factor Calculation: Analytical and Monte Carlo Method](https://viewfactor.thermocraft.space/)
 
 ## 熱輻射と形態係数（View Factor）の関係
 

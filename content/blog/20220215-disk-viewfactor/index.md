@@ -7,7 +7,7 @@ tags: ["Thermal"]
 
 ## 微小表面から円板へのView Factor
 
-今回は，微小表面から円板へのView Factor例に，View Factorの解析解を導出する方法について解説する（View Factorの具体的な値が知りたい方はこちらへ：[View Factor Calculation: Analytical and Monte Carlo Method](https://kanamesasaki.github.io/viewfactor/)）．
+今回は，微小表面から円板へのView Factor例に，View Factorの解析解を導出する方法について解説する（View Factorの具体的な値が知りたい方はこちらへ：[View Factor Calculation: Analytical and Monte Carlo Method](https://viewfactor.thermocraft.space/)）．
 微小表面と円板の形状，および位置関係は以下の図のように，$(R,~h,~\omega)$によって表されるものとする．
 
 <div align="center"><img src=".\disk.svg" width="350"></div>
